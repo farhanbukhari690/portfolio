@@ -3,6 +3,7 @@ import Navbar from './components/Navbar'
 import Home from './components/Home'
 import About from './components/About'
 import { motion,useScroll } from 'motion/react'
+import Experience from './components/Experience'
 
 const App = () => {
 const scrollYProgress=useScroll().scrollYProgress
@@ -15,10 +16,10 @@ const scrollYProgress=useScroll().scrollYProgress
        className='p-1 bg-red-600 fixed top-0 w-full origin-top-left left-0'
        ></motion.div>
       <Navbar/>
-      {/* <hr className='text-white m-2'/> */}
-      <Home/>
-      {/* <hr className='text-white m-2'/> */}
+      <hr className='text-white m-2 p-2'/>
+      <Home/>      
       <About/>     
+      <Experience/>
     </div>
     
   )
