@@ -14,7 +14,7 @@ const Home = () => {
           repeat:Infinity
         }}
         className="text-3xl md:text-6xl text-yellow-500 font-bold leading-tight tracking-tighter">
-          Hey, I am Farhan
+          Hey, I am Farhan Bukhari
         </motion.h1>
         <p className="text-base text-sm md:text-lg">
         I'm a frontend developer with a solid understanding of modern web technologies and a passion for building clean, responsive user interfaces. I enjoy turning ideas into functional, user-friendly websites using tools like HTML, CSS, JavaScript, and frameworks like React . While my main focus is on frontend development, I also have a basic understanding of backend technologies and databases.

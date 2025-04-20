@@ -2,7 +2,8 @@ import React from 'react'
 import Navbar from './components/Navbar'
 import Home from './components/Home'
 import About from './components/About'
-import { motion,useScroll } from 'motion/react'
+import Projects from './components/Projects'
+import { motion,useScroll } from 'framer-motion'
 import Experience from './components/Experience'
 
 const App = () => {
@@ -20,6 +21,9 @@ const scrollYProgress=useScroll().scrollYProgress
       <Home/>      
       <About/>     
       <Experience/>
+      <hr className='text-white m-2 p-2'/>
+      <Projects/>
+     
     </div>
     
   )
